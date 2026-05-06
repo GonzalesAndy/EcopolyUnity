@@ -17,14 +17,14 @@ Core twist: every action can increase Carbon Emissions Points (CEP). If global C
 
 ## Tech Stack
 
-- Unity 2022.3 LTS
+- Unity 6.4
 - C#
 - Unity Netcode for GameObjects
-- Unity Services (Lobby + Relay)
+- Unity Gaming Services (Lobby + Relay)
 
 ## Quick Start
 
-1. Open the project in Unity 2022.3 LTS.
+1. Open the project in Unity 6.4.
 2. Open scene `Assets/Scenes/NewUI/GameBoardEnv.unity`.
 3. Press Play.
 
