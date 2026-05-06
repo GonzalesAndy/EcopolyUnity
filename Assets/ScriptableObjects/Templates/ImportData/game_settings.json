@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "startingMoney": 1500,
+    "voiceMaxDistance": 8,
+    "voiceMinDistance": 1,
+    "cameraSwitchBlend": 0.5,
+    "pawnMoveStepDuration": 0.2,
+    "disasterVFXDuration": 4
+  }
+}

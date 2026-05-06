@@ -1,0 +1,3 @@
+repository "Ecopoly/Ecopoly@9071865672876@cloud"
+  path "/"
+    smartbranch "/main/main-build"

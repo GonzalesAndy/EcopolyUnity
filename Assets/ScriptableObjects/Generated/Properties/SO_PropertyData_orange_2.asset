@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe160ca05e188144d9165d67ff61d362, type: 3}
+  m_Name: SO_PropertyData_orange_2
+  m_EditorClassIdentifier: Assembly-CSharp::Ecopoly.Data.PropertyData
+  propertyId: orange_2
+  displayName: New Yorkdrive
+  groupColor: {r: 0.9019608, g: 0.49411765, b: 0.13333334, a: 1}
+  groupId: orange
+  purchasePrice: 240
+  baseRent: 20
+  monopolyRent: 40
+  cepOnPurchase: 28
+  stableEmissionsPerLevel: 16000000100000000a00000004000000
+  renovationCosts: 5000000082000000be000000
+  renovationCEPCosts: 080000000d00000012000000
+  tilePrefab: {fileID: 0}
+  houseModelsByLevel: []

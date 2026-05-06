@@ -1,0 +1,27 @@
+{
+  "districtBuildings": [
+    { "buildingId": "commercial_violet", "displayName": "Commercial Violet", "buildingType": "Commercial", "cost": 300, "rentBonus": 20, "cepReductionPerTurn": 0 },
+    { "buildingId": "ecological_violet", "displayName": "Ecological Violet", "buildingType": "Ecological", "cost": 250, "rentBonus": 0, "cepReductionPerTurn": 35 },
+
+    { "buildingId": "commercial_clair", "displayName": "Commercial Clair", "buildingType": "Commercial", "cost": 300, "rentBonus": 25, "cepReductionPerTurn": 0 },
+    { "buildingId": "ecological_clair", "displayName": "Ecological Clair", "buildingType": "Ecological", "cost": 250, "rentBonus": 0, "cepReductionPerTurn": 35 },
+
+    { "buildingId": "commercial_rose", "displayName": "Commercial Rose", "buildingType": "Commercial", "cost": 320, "rentBonus": 30, "cepReductionPerTurn": 0 },
+    { "buildingId": "ecological_rose", "displayName": "Ecological Rose", "buildingType": "Ecological", "cost": 260, "rentBonus": 0, "cepReductionPerTurn": 40 },
+
+    { "buildingId": "commercial_orange", "displayName": "Commercial Orange", "buildingType": "Commercial", "cost": 340, "rentBonus": 35, "cepReductionPerTurn": 0 },
+    { "buildingId": "ecological_orange", "displayName": "Ecological Orange", "buildingType": "Ecological", "cost": 280, "rentBonus": 0, "cepReductionPerTurn": 45 },
+
+    { "buildingId": "commercial_rouge", "displayName": "Commercial Rouge", "buildingType": "Commercial", "cost": 360, "rentBonus": 40, "cepReductionPerTurn": 0 },
+    { "buildingId": "ecological_rouge", "displayName": "Ecological Rouge", "buildingType": "Ecological", "cost": 300, "rentBonus": 0, "cepReductionPerTurn": 50 },
+
+    { "buildingId": "commercial_jaune", "displayName": "Commercial Jaune", "buildingType": "Commercial", "cost": 380, "rentBonus": 45, "cepReductionPerTurn": 0 },
+    { "buildingId": "ecological_jaune", "displayName": "Ecological Jaune", "buildingType": "Ecological", "cost": 320, "rentBonus": 0, "cepReductionPerTurn": 55 },
+
+    { "buildingId": "commercial_vert", "displayName": "Commercial Vert", "buildingType": "Commercial", "cost": 400, "rentBonus": 50, "cepReductionPerTurn": 0 },
+    { "buildingId": "ecological_vert", "displayName": "Ecological Vert", "buildingType": "Ecological", "cost": 340, "rentBonus": 0, "cepReductionPerTurn": 60 },
+
+    { "buildingId": "commercial_bleu", "displayName": "Commercial Bleu", "buildingType": "Commercial", "cost": 420, "rentBonus": 60, "cepReductionPerTurn": 0 },
+    { "buildingId": "ecological_bleu", "displayName": "Ecological Bleu", "buildingType": "Ecological", "cost": 360, "rentBonus": 0, "cepReductionPerTurn": 65 }
+  ]
+}

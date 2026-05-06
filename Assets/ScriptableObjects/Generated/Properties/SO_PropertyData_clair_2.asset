@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe160ca05e188144d9165d67ff61d362, type: 3}
+  m_Name: SO_PropertyData_clair_2
+  m_EditorClassIdentifier: Assembly-CSharp::Ecopoly.Data.PropertyData
+  propertyId: clair_2
+  displayName: Bloomridge Terrace
+  groupColor: {r: 0.3647059, g: 0.6784314, b: 0.8862745, a: 1}
+  groupId: clair
+  purchasePrice: 120
+  baseRent: 8
+  monopolyRent: 16
+  cepOnPurchase: 16
+  stableEmissionsPerLevel: 140000000e0000000800000003000000
+  renovationCosts: 3c0000006e000000aa000000
+  renovationCEPCosts: 060000000b00000010000000
+  tilePrefab: {fileID: 0}
+  houseModelsByLevel: []

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b871f9c22e3e7e46b17865db79fbd01, type: 3}
+  m_Name: SO_AnimalRoster
+  m_EditorClassIdentifier: Assembly-CSharp::Ecopoly.Data.AnimalRosterData
+  animalPrefabs:
+  - {fileID: 4530003105475362356, guid: d011fdcf78cddca4087eb3cbfcfe3ee4, type: 3}
+  - {fileID: 3326781497290907522, guid: ac16983f506041947b81a28e5cca8743, type: 3}
+  - {fileID: 8480472685412960705, guid: f2471e07d670c5e4694db663baa1eb2b, type: 3}
+  - {fileID: 4586020781640647465, guid: 3b1c696c0930f8345a849b46db7990f7, type: 3}
+  - {fileID: 4834716518553012356, guid: e03b5f376965dcd4d874c221395ac67e, type: 3}

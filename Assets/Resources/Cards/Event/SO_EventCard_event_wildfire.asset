@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37d339197c48644fa44ed797e60f407, type: 3}
+  m_Name: SO_EventCard_event_wildfire
+  m_EditorClassIdentifier: Assembly-CSharp::Ecopoly.Data.EventCardData
+  cardId: event_wildfire
+  disasterType: 2
+  cardTitle: Wildfire
+  illustration: {fileID: 0}
+  effectsByLevel:
+  - description: Smoke and red ambiance. Pay M50.
+    moneyPerHouse: 0
+    moneyFlat: 50
+    levelReduction: 0
+    targetLevelCap: 0
+    affectsNeighbors: 0
+    affectsAll: 0
+    isGlobalDisaster: 0
+    freeUpgradeReward: 0
+    freeUpgradeRequiredLevel: 0
+    vfxPrefab: {fileID: 0}
+    spawnTarget: 0
+    secondVfxPrefab: {fileID: 0}
+    secondSpawnTarget: 0
+    weatherProfile: {fileID: 11400000, guid: 56652bb77d1606b4396767fbb07e50ab, type: 2}
+    weatherDuration: 15
+  - description: Fire breaks out. Loses 1 level.
+    moneyPerHouse: 0
+    moneyFlat: 0
+    levelReduction: 1
+    targetLevelCap: 0
+    affectsNeighbors: 0
+    affectsAll: 0
+    isGlobalDisaster: 0
+    freeUpgradeReward: 0
+    freeUpgradeRequiredLevel: 0
+    vfxPrefab: {fileID: 7688719708357612412, guid: da4c81055ba20c841987125bd59dc42a, type: 3}
+    spawnTarget: 2
+    secondVfxPrefab: {fileID: 0}
+    secondSpawnTarget: 0
+    weatherProfile: {fileID: 11400000, guid: 56652bb77d1606b4396767fbb07e50ab, type: 2}
+    weatherDuration: 15
+  - description: Fire tornado rises from the lake. Loses 1 level.
+    moneyPerHouse: 0
+    moneyFlat: 0
+    levelReduction: 1
+    targetLevelCap: 0
+    affectsNeighbors: 0
+    affectsAll: 0
+    isGlobalDisaster: 0
+    freeUpgradeReward: 0
+    freeUpgradeRequiredLevel: 0
+    vfxPrefab: {fileID: 8699515913246784682, guid: c777c542205b53f4284312f0515c6c24, type: 3}
+    spawnTarget: 1
+    secondVfxPrefab: {fileID: 7688719708357612412, guid: da4c81055ba20c841987125bd59dc42a, type: 3}
+    secondSpawnTarget: 2
+    weatherProfile: {fileID: 11400000, guid: 56652bb77d1606b4396767fbb07e50ab, type: 2}
+    weatherDuration: 18
+  - description: Massive fire tornado. Neighbors lose 1 level each.
+    moneyPerHouse: 0
+    moneyFlat: 0
+    levelReduction: 1
+    targetLevelCap: 0
+    affectsNeighbors: 1
+    affectsAll: 0
+    isGlobalDisaster: 0
+    freeUpgradeReward: 0
+    freeUpgradeRequiredLevel: 0
+    vfxPrefab: {fileID: 7180164727676456938, guid: 76348252fe3a3c2448edc9c7fd442ba7, type: 3}
+    spawnTarget: 1
+    secondVfxPrefab: {fileID: 7688719708357612412, guid: da4c81055ba20c841987125bd59dc42a, type: 3}
+    secondSpawnTarget: 2
+    weatherProfile: {fileID: 11400000, guid: 56652bb77d1606b4396767fbb07e50ab, type: 2}
+    weatherDuration: 22
+  fmodEventPath: event:/SFX/Disaster/Wildfire

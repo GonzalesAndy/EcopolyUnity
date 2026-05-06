@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a6d0648ba5d542988425c7a3e4e37, type: 3}
+  m_Name: SO_TileDecorationSettings
+  m_EditorClassIdentifier: Assembly-CSharp::Ecopoly.Data.TileDecorationSettings
+  decorations:
+  - tileType: 5
+    prefab: {fileID: 4932433912088686034, guid: d2d5881018c344e46b6fd7261f71e72b, type: 3}
+    scale: 1
+    yAngleOffset: -180
+    positionOffset: {x: 0, y: 0, z: 0}
+    useAnchorPawn: 0
+  - tileType: 0
+    prefab: {fileID: 3388652625525679953, guid: f3a755e0b2e070b47bd6329daac456cc, type: 3}
+    scale: 0.6507
+    yAngleOffset: 0
+    positionOffset: {x: 0, y: 0.84, z: 0}
+    useAnchorPawn: 0
+  - tileType: 7
+    prefab: {fileID: 8951389006330636125, guid: 709ea94bec4cae54a98f3c8efea73e28, type: 3}
+    scale: 1
+    yAngleOffset: -2.4
+    positionOffset: {x: 0, y: 0.1733, z: 0.04}
+    useAnchorPawn: 0
+  - tileType: 3
+    prefab: {fileID: 200147613199591081, guid: 69ef9b9629feee042b335c06183093f0, type: 3}
+    scale: 1
+    yAngleOffset: 0
+    positionOffset: {x: 0, y: 1.3067, z: 2}
+    useAnchorPawn: 1

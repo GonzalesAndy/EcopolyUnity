@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527d81c39ff2b97419eb033e8339292b, type: 3}
+  m_Name: BoardConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Ecopoly.Data.BoardConfig
+  tiles:
+  - position: 0
+    tileType: 2
+    propertyId: 
+    taxAmount: 0
+    displayName: GO
+  - position: 1
+    tileType: 0
+    propertyId: violet_1
+    taxAmount: 0
+    displayName: Lightwind Boulevard
+  - position: 2
+    tileType: 6
+    propertyId: 
+    taxAmount: 0
+    displayName: Event
+  - position: 3
+    tileType: 0
+    propertyId: violet_2
+    taxAmount: 0
+    displayName: Clearpath Drive
+  - position: 4
+    tileType: 7
+    propertyId: 
+    taxAmount: 200
+    displayName: Tax
+  - position: 5
+    tileType: 1
+    propertyId: station_1
+    taxAmount: 0
+    displayName: Wind Turbines
+  - position: 6
+    tileType: 0
+    propertyId: clair_1
+    taxAmount: 0
+    displayName: Earthlight Boulevard
+  - position: 7
+    tileType: 5
+    propertyId: 
+    taxAmount: 0
+    displayName: Chance
+  - position: 8
+    tileType: 0
+    propertyId: clair_2
+    taxAmount: 0
+    displayName: Bloomridge Terrace
+  - position: 9
+    tileType: 0
+    propertyId: clair_3
+    taxAmount: 0
+    displayName: CleanWater Square
+  - position: 10
+    tileType: 3
+    propertyId: 
+    taxAmount: 0
+    displayName: Jail
+  - position: 11
+    tileType: 0
+    propertyId: rose_1
+    taxAmount: 0
+    displayName: Suncrest Grove
+  - position: 12
+    tileType: 8
+    propertyId: 
+    taxAmount: 0
+    displayName: Natural Park
+  - position: 13
+    tileType: 0
+    propertyId: rose_2
+    taxAmount: 0
+    displayName: Verdant Street
+  - position: 14
+    tileType: 0
+    propertyId: rose_3
+    taxAmount: 0
+    displayName: States Drive
+  - position: 15
+    tileType: 1
+    propertyId: station_2
+    taxAmount: 0
+    displayName: Nuclear Plant
+  - position: 16
+    tileType: 0
+    propertyId: orange_1
+    taxAmount: 0
+    displayName: Windrise Heights
+  - position: 17
+    tileType: 6
+    propertyId: 
+    taxAmount: 0
+    displayName: Event
+  - position: 18
+    tileType: 0
+    propertyId: orange_2
+    taxAmount: 0
+    displayName: New Yorkdrive
+  - position: 19
+    tileType: 0
+    propertyId: orange_3
+    taxAmount: 0
+    displayName: Clearflow Court
+  - position: 20
+    tileType: 8
+    propertyId: 
+    taxAmount: 0
+    displayName: Charity
+  - position: 21
+    tileType: 0
+    propertyId: rouge_1
+    taxAmount: 0
+    displayName: Tomato Town
+  - position: 22
+    tileType: 5
+    propertyId: 
+    taxAmount: 0
+    displayName: Chance
+  - position: 23
+    tileType: 0
+    propertyId: rouge_2
+    taxAmount: 0
+    displayName: Renew Terrace
+  - position: 24
+    tileType: 0
+    propertyId: rouge_3
+    taxAmount: 0
+    displayName: Pacific Drive
+  - position: 25
+    tileType: 1
+    propertyId: station_3
+    taxAmount: 0
+    displayName: Solar Panels
+  - position: 26
+    tileType: 0
+    propertyId: jaune_1
+    taxAmount: 0
+    displayName: Solaris Avenue
+  - position: 27
+    tileType: 0
+    propertyId: jaune_2
+    taxAmount: 0
+    displayName: Ecohaven Street
+  - position: 28
+    tileType: 8
+    propertyId: 
+    taxAmount: 0
+    displayName: Shop
+  - position: 29
+    tileType: 0
+    propertyId: jaune_3
+    taxAmount: 0
+    displayName: GreenTide Road
+  - position: 30
+    tileType: 4
+    propertyId: 
+    taxAmount: 0
+    displayName: Go To Jail
+  - position: 31
+    tileType: 0
+    propertyId: vert_1
+    taxAmount: 0
+    displayName: Releaf Gardens
+  - position: 32
+    tileType: 0
+    propertyId: vert_2
+    taxAmount: 0
+    displayName: Brightleaf Lane
+  - position: 33
+    tileType: 6
+    propertyId: 
+    taxAmount: 0
+    displayName: Event
+  - position: 34
+    tileType: 0
+    propertyId: vert_3
+    taxAmount: 0
+    displayName: Riverside
+  - position: 35
+    tileType: 1
+    propertyId: station_4
+    taxAmount: 0
+    displayName: Hydraulic Dam
+  - position: 36
+    tileType: 5
+    propertyId: 
+    taxAmount: 0
+    displayName: Chance
+  - position: 37
+    tileType: 0
+    propertyId: bleu_1
+    taxAmount: 0
+    displayName: Lowcarbon Way
+  - position: 38
+    tileType: 7
+    propertyId: 
+    taxAmount: 100
+    displayName: Tax
+  - position: 39
+    tileType: 0
+    propertyId: bleu_2
+    taxAmount: 0
+    displayName: SaltLake
+  allProperties:
+  - {fileID: 11400000, guid: fb0022d4af3d3c94dab3515782403559, type: 2}
+  - {fileID: 11400000, guid: 1d33e0a6565a17a48be505d8c339d0bf, type: 2}
+  - {fileID: 11400000, guid: 14d5c8eebe9f0a4439a2bc8ba9b022ad, type: 2}
+  - {fileID: 11400000, guid: cd6f35fd7c3f36c49a66da577e54a2b9, type: 2}
+  - {fileID: 11400000, guid: e65fe0cd08d8abe4cbaf4793da7b9883, type: 2}
+  - {fileID: 11400000, guid: 8b7a71653957c7b4e8c7f919068fe64b, type: 2}
+  - {fileID: 11400000, guid: 3771b1ea4fe346a41bd5fae36fd8999e, type: 2}
+  - {fileID: 11400000, guid: 826a45b8e7a06a242a522e8d11ef6d6c, type: 2}
+  - {fileID: 11400000, guid: 8711b5a4d84e17b47a7211fb85342f73, type: 2}
+  - {fileID: 11400000, guid: 507806edb341bc04c877f60b52d0237a, type: 2}
+  - {fileID: 11400000, guid: abf87d74831797547ba078f0508ec5ba, type: 2}
+  - {fileID: 11400000, guid: 8850665bb1300ec4bbcc5da049b2a80b, type: 2}
+  - {fileID: 11400000, guid: 9217e000ec5a87648a994f3082061c3e, type: 2}
+  - {fileID: 11400000, guid: d9582f331da273b42a239c949268bbf6, type: 2}
+  - {fileID: 11400000, guid: c3a9f3ef5bbcdf345b6a3c62d5920d9a, type: 2}
+  - {fileID: 11400000, guid: 6ffb7d4689989974289c989f68bf1993, type: 2}
+  - {fileID: 11400000, guid: 4bf1a56976f7d0746b4d28186da9a8d2, type: 2}
+  - {fileID: 11400000, guid: dd4c6c2377647ee44845767bc6ec6ff4, type: 2}
+  - {fileID: 11400000, guid: 80ebce70fcb99764daf6b6f2689315d4, type: 2}
+  - {fileID: 11400000, guid: 311f40d593d5efd46bda1eec37d6b462, type: 2}
+  - {fileID: 11400000, guid: 554d7e944e5bf2c4085ca9b9e1fc5df1, type: 2}
+  - {fileID: 11400000, guid: 627a46d10d2f17c46851a01b944fb1ad, type: 2}
+  - {fileID: 11400000, guid: 338faff9040e62046b1586c9873e6215, type: 2}
+  - {fileID: 11400000, guid: 857e19e18b180b941b03b5edf55859df, type: 2}
+  - {fileID: 11400000, guid: 071dde58283e375449a8066ad4b6eb79, type: 2}
+  - {fileID: 11400000, guid: 124e9be5deb68db4f917f974122d3504, type: 2}
+  districtBuildings:
+  - {fileID: 11400000, guid: 8c36aeab9fb04d949ae8d9a198fd3193, type: 2}
+  - {fileID: 11400000, guid: f18124709e774d642876317985da9375, type: 2}
+  - {fileID: 11400000, guid: dc89ed0dfe8a3bd49a64e6d44e0052ba, type: 2}
+  - {fileID: 11400000, guid: 8ff4298cfc9adf04993d1769e70debe9, type: 2}
+  - {fileID: 11400000, guid: 805518460a0aa5a43b0b92221d8c9b95, type: 2}
+  - {fileID: 11400000, guid: 0a3a611cfba5e07419a1641fcbd07bc9, type: 2}
+  - {fileID: 11400000, guid: a237819501c796d42bc4dd74aa7ebc34, type: 2}
+  - {fileID: 11400000, guid: e75e24e9652d5ce42ade130dd7064b6c, type: 2}
+  - {fileID: 11400000, guid: 1f0e533371a3be74da07691e48ab186f, type: 2}
+  - {fileID: 11400000, guid: 6b75bf41405cdc042bdbc0542f8aeec7, type: 2}
+  - {fileID: 11400000, guid: 22e9d0d8070fbe34abd3aa4a8ab64300, type: 2}
+  - {fileID: 11400000, guid: 84715da3d840e4e419495a3e47cdcb83, type: 2}
+  - {fileID: 11400000, guid: 934428e732ea94b49bb6d6a19fa09730, type: 2}
+  - {fileID: 11400000, guid: 97ce5422a0c946748859eea425b5249b, type: 2}
+  - {fileID: 11400000, guid: 8b03e3c1a262cd6498357b965ffa8870, type: 2}
+  - {fileID: 11400000, guid: b44bac6b83e00c749acf5ea2b58f5112, type: 2}

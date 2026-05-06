@@ -1,0 +1,103 @@
+{
+  "cards": [
+    {
+      "cardId": "event_hurricane",
+      "disasterType": "Hurricane",
+      "cardTitle": "Hurricane",
+      "effectsByLevel": [
+        { "description": "Local tornado. Pay M100 flat.", "moneyFlat": 100 },
+        { "description": "Moderate cyclone. Pay M40 per house.", "moneyPerHouse": 40 },
+        { "description": "Strong cyclone. Pay M75 per house.", "moneyPerHouse": 75 },
+        { "description": "Global cyclone. Pay M100 per house.", "moneyPerHouse": 100, "affectsAll": true, "isGlobalDisaster": true }
+      ]
+    },
+    {
+      "cardId": "event_coastal_flood",
+      "disasterType": "CoastalFlood",
+      "cardTitle": "Coastal Flood",
+      "effectsByLevel": [
+        { "description": "Symbolic wave. No effect." },
+        { "description": "Reduce affected property to max level 3.", "targetLevelCap": 3 },
+        { "description": "Reduce affected property to max level 2.", "targetLevelCap": 2 },
+        { "description": "Affected and neighboring properties drop to level 1.", "targetLevelCap": 1, "affectsNeighbors": true }
+      ]
+    },
+    {
+      "cardId": "event_drought",
+      "disasterType": "Drought",
+      "cardTitle": "Drought",
+      "effectsByLevel": [
+        { "description": "If level < 3 pay M50.", "moneyFlat": 50 },
+        { "description": "Moderate drought. Pay M40.", "moneyFlat": 40 },
+        { "description": "Severe drought. Pay M70.", "moneyFlat": 70 },
+        { "description": "Extreme drought. Pay M100 per affected property.", "moneyFlat": 100, "affectsNeighbors": true }
+      ]
+    },
+    {
+      "cardId": "event_wildfire",
+      "disasterType": "Wildfire",
+      "cardTitle": "Wildfire",
+      "effectsByLevel": [
+        { "description": "If level < 3 pay M50.", "moneyFlat": 50 },
+        { "description": "One affected property loses 1 level.", "levelReduction": 1 },
+        { "description": "All affected properties lose 1 level.", "levelReduction": 1 },
+        { "description": "Affected and neighboring properties lose 1 level.", "levelReduction": 1, "affectsNeighbors": true }
+      ]
+    },
+    {
+      "cardId": "event_river_flood",
+      "disasterType": "RiverFlood",
+      "cardTitle": "River Flood",
+      "effectsByLevel": [
+        { "description": "Free upgrade for one level 3 property.", "freeUpgradeReward": true, "freeUpgradeRequiredLevel": 3 },
+        { "description": "Affected property loses 1 level.", "levelReduction": 1 },
+        { "description": "Affected property loses 1 level and pay M50.", "levelReduction": 1, "moneyFlat": 50 },
+        { "description": "Affected and neighbors lose 1 level and pay M100 each.", "levelReduction": 1, "moneyFlat": 100, "affectsNeighbors": true }
+      ]
+    },
+    {
+      "cardId": "event_heatwave",
+      "disasterType": "Heatwave",
+      "cardTitle": "Heatwave",
+      "effectsByLevel": [
+        { "description": "If level < 3 pay M50.", "moneyFlat": 50 },
+        { "description": "Moderate heatwave. Pay M40.", "moneyFlat": 40 },
+        { "description": "Severe heatwave. Pay M70; level 2 drops to 1.", "moneyFlat": 70, "targetLevelCap": 1 },
+        { "description": "Extreme heatwave. Pay M100 each; level 2-3 drop to 1.", "moneyFlat": 100, "targetLevelCap": 1, "affectsNeighbors": true }
+      ]
+    },
+    {
+      "cardId": "event_lightning",
+      "disasterType": "Lightning",
+      "cardTitle": "Lightning",
+      "effectsByLevel": [
+        { "description": "Distant thunder. No effect." },
+        { "description": "If level 4, gain M40.", "moneyFlat": -40 },
+        { "description": "All affected properties lose 1 level.", "levelReduction": 1 },
+        { "description": "Affected and neighboring properties lose 1 level.", "levelReduction": 1, "affectsNeighbors": true }
+      ]
+    },
+    {
+      "cardId": "event_earthquake",
+      "disasterType": "Earthquake",
+      "cardTitle": "Earthquake",
+      "effectsByLevel": [
+        { "description": "Micro tremor. Pay M50.", "moneyFlat": 50 },
+        { "description": "Moderate quake. Affected property loses 1 level.", "levelReduction": 1 },
+        { "description": "Strong quake. Lose 1 level and pay M50.", "levelReduction": 1, "moneyFlat": 50 },
+        { "description": "Devastating quake. Lose 2 levels and pay M70 each.", "levelReduction": 2, "moneyFlat": 70, "affectsNeighbors": true }
+      ]
+    },
+    {
+      "cardId": "event_volcano",
+      "disasterType": "Volcano",
+      "cardTitle": "Volcanic Eruption",
+      "effectsByLevel": [
+        { "description": "Volcanic activity. Pay M30.", "moneyFlat": 30 },
+        { "description": "Minor eruption. Reduce affected property to max level 3.", "targetLevelCap": 3 },
+        { "description": "Major eruption. Affected property drops to level 1.", "targetLevelCap": 1 },
+        { "description": "Cataclysm. Affected and neighbors drop to level 1 and pay M150 each.", "targetLevelCap": 1, "moneyFlat": 150, "affectsNeighbors": true }
+      ]
+    }
+  ]
+}

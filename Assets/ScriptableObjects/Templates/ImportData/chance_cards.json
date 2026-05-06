@@ -1,0 +1,43 @@
+{
+  "cards": [
+    { "cardId": "move_bike_01", "cardType": "MoveVelo", "displayText": "Bike card: move up to 2 tiles.", "maxMoveDistance": 2 },
+    { "cardId": "move_bike_02", "cardType": "MoveVelo", "displayText": "Bike card: move up to 2 tiles.", "maxMoveDistance": 2 },
+    { "cardId": "move_car_01", "cardType": "MoveCar", "displayText": "Car card: move up to 4 tiles.", "maxMoveDistance": 4, "cepAmount": 5 },
+    { "cardId": "move_car_02", "cardType": "MoveCar", "displayText": "Car card: move up to 4 tiles.", "maxMoveDistance": 4, "cepAmount": 5 },
+    { "cardId": "move_plane_01", "cardType": "MovePlane", "displayText": "Plane card: move up to 7 tiles.", "maxMoveDistance": 7, "cepAmount": 15 },
+    { "cardId": "move_plane_02", "cardType": "MovePlane", "displayText": "Plane card: move up to 7 tiles.", "maxMoveDistance": 7, "cepAmount": 15 },
+
+    { "cardId": "tax_expert", "cardType": "Tax", "displayText": "Environmental audit fee. Pay M50.", "moneyAmount": 50 },
+    { "cardId": "tax_theft", "cardType": "Tax", "displayText": "Caught cheating the bank. Pay M100.", "moneyAmount": 100 },
+    { "cardId": "tax_pollution", "cardType": "Tax", "displayText": "You polluted nature. Pay M75.", "moneyAmount": 75 },
+
+    { "cardId": "dilemma_filters", "cardType": "Dilemma", "displayText": "Carbon filters: each player pays M50 to reduce global CEP.", "dilemmaCostPerPlayer": 50, "dilemmaCEPEffect": 120 },
+    { "cardId": "dilemma_storm", "cardType": "Dilemma", "displayText": "Protect wastewater station: each player pays M50.", "dilemmaCostPerPlayer": 50, "dilemmaCEPEffect": 100 },
+    { "cardId": "dilemma_collective", "cardType": "Dilemma", "displayText": "Pay now or global CEP rises.", "dilemmaCostPerPlayer": 50, "dilemmaCEPEffect": 90 },
+
+    { "cardId": "cep_up_plane_trip", "cardType": "PersonalCEPUp", "displayText": "Flight for conference. Gain +60 CEP.", "cepAmount": 60 },
+    { "cardId": "cep_up_maintenance", "cardType": "PersonalCEPUp", "displayText": "Skipped maintenance. Gain +40 CEP.", "cepAmount": 40 },
+
+    { "cardId": "cep_down_recycling", "cardType": "PersonalCEPDown", "displayText": "Strong recycling policy. Reduce 50 CEP.", "cepAmount": 50 },
+    { "cardId": "cep_down_transport", "cardType": "PersonalCEPDown", "displayText": "Public transport month. Reduce 40 CEP.", "cepAmount": 40 },
+
+    { "cardId": "go_to_jail_01", "cardType": "GoToJail", "displayText": "Go directly to jail." },
+    { "cardId": "go_to_jail_02", "cardType": "GoToJail", "displayText": "Go directly to jail." },
+
+    { "cardId": "degrade_or_pay_01", "cardType": "BuildingDegraded", "displayText": "Roof damage: pay M50 or degrade one property.", "moneyAmount": 50 },
+    { "cardId": "degrade_or_pay_02", "cardType": "BuildingDegraded", "displayText": "Regional fire damage: pay M50 or degrade one property.", "moneyAmount": 50 },
+
+    { "cardId": "move_to_tax", "cardType": "MoveToTile", "displayText": "Move to tax tile.", "targetTilePosition": 4 },
+    { "cardId": "move_to_shop_01", "cardType": "MoveToTile", "displayText": "Move to protection shop.", "targetTilePosition": 28 },
+    { "cardId": "move_to_shop_02", "cardType": "MoveToTile", "displayText": "Move to protection shop.", "targetTilePosition": 28 },
+
+    { "cardId": "get_out_jail_01", "cardType": "GetOutOfJail", "displayText": "Keep this card until needed: get out of jail free." },
+    { "cardId": "get_out_jail_02", "cardType": "GetOutOfJail", "displayText": "Keep this card until needed: get out of jail free." },
+
+    { "cardId": "global_cep_up_01", "cardType": "GlobalCEPUp", "displayText": "Global emissions rise by 100 CEP.", "cepAmount": 100 },
+    { "cardId": "receive_money_01", "cardType": "ReceiveMoney", "displayText": "Receive M120 from the bank.", "moneyAmount": 120 },
+    { "cardId": "conditional_money_01", "cardType": "ConditionalMoney", "displayText": "If your CEP is low, receive M80; otherwise pay M80.", "conditionalCEPThreshold": 700, "conditionalMoneyBelow": 80, "conditionalMoneyAbove": 80 },
+    { "cardId": "reparations_01", "cardType": "Reparations", "displayText": "Pay reparations to other players based on your CEP." },
+    { "cardId": "district_destroyed_01", "cardType": "DistrictBuildingDestroyed", "displayText": "If you own a district building, it is destroyed." }
+  ]
+}

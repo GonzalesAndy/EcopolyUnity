@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37d339197c48644fa44ed797e60f407, type: 3}
+  m_Name: SO_EventCard_event_sandstorm
+  m_EditorClassIdentifier: Assembly-CSharp::Ecopoly.Data.EventCardData
+  cardId: event_drought
+  disasterType: 1
+  cardTitle: Sandstorm
+  illustration: {fileID: 0}
+  effectsByLevel:
+  - description: Sandstorm. Pay M50 if property level < 3.
+    moneyPerHouse: 0
+    moneyFlat: 50
+    levelReduction: 0
+    targetLevelCap: 0
+    affectsNeighbors: 0
+    affectsAll: 0
+    isGlobalDisaster: 0
+    freeUpgradeReward: 0
+    freeUpgradeRequiredLevel: 0
+    vfxPrefab: {fileID: 0}
+    spawnTarget: 0
+    secondVfxPrefab: {fileID: 0}
+    secondSpawnTarget: 0
+    weatherProfile: {fileID: 11400000, guid: de62367a00d8753469a83e1f6f8079d3, type: 2}
+    weatherDuration: 15
+  - description: Sand tornado forms. Pay M40.
+    moneyPerHouse: 0
+    moneyFlat: 40
+    levelReduction: 0
+    targetLevelCap: 0
+    affectsNeighbors: 0
+    affectsAll: 0
+    isGlobalDisaster: 0
+    freeUpgradeReward: 0
+    freeUpgradeRequiredLevel: 0
+    vfxPrefab: {fileID: 5117428860922031693, guid: 898015f0fb0e2f549addc5e447aa0df8, type: 3}
+    spawnTarget: 1
+    secondVfxPrefab: {fileID: 0}
+    secondSpawnTarget: 0
+    weatherProfile: {fileID: 11400000, guid: de62367a00d8753469a83e1f6f8079d3, type: 2}
+    weatherDuration: 15
+  - description: Large sand tornado. Pay M70.
+    moneyPerHouse: 0
+    moneyFlat: 70
+    levelReduction: 0
+    targetLevelCap: 0
+    affectsNeighbors: 0
+    affectsAll: 0
+    isGlobalDisaster: 0
+    freeUpgradeReward: 0
+    freeUpgradeRequiredLevel: 0
+    vfxPrefab: {fileID: 2864688536766754805, guid: 57718c4aa1bee8b47a6635e7c8141cec, type: 3}
+    spawnTarget: 1
+    secondVfxPrefab: {fileID: 0}
+    secondSpawnTarget: 0
+    weatherProfile: {fileID: 11400000, guid: de62367a00d8753469a83e1f6f8079d3, type: 2}
+    weatherDuration: 15
+  - description: Massive sand tornado hits neighbors. Pay M100.
+    moneyPerHouse: 0
+    moneyFlat: 100
+    levelReduction: 0
+    targetLevelCap: 0
+    affectsNeighbors: 1
+    affectsAll: 0
+    isGlobalDisaster: 0
+    freeUpgradeReward: 0
+    freeUpgradeRequiredLevel: 0
+    vfxPrefab: {fileID: 2864688536766754805, guid: 57718c4aa1bee8b47a6635e7c8141cec, type: 3}
+    spawnTarget: 1
+    secondVfxPrefab: {fileID: 0}
+    secondSpawnTarget: 0
+    weatherProfile: {fileID: 11400000, guid: de62367a00d8753469a83e1f6f8079d3, type: 2}
+    weatherDuration: 20
+  fmodEventPath: event:/SFX/Disaster/Drought

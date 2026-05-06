@@ -1,0 +1,37 @@
+{
+  "bots": [
+    {
+      "botId": "eco",
+      "botName": "Lucie Verte",
+      "ecologicalAwareness": 0.9,
+      "riskTolerance": 0.3,
+      "aggressiveness": 0.2,
+      "cooperation": 0.8,
+      "cepBuyThreshold": 800,
+      "safeMoneyReserve": 400,
+      "decisionDelay": 2.0
+    },
+    {
+      "botId": "capitalist",
+      "botName": "Marcel Profit",
+      "ecologicalAwareness": 0.1,
+      "riskTolerance": 0.9,
+      "aggressiveness": 0.8,
+      "cooperation": 0.2,
+      "cepBuyThreshold": 1400,
+      "safeMoneyReserve": 100,
+      "decisionDelay": 1.0
+    },
+    {
+      "botId": "balanced",
+      "botName": "Sam Modere",
+      "ecologicalAwareness": 0.5,
+      "riskTolerance": 0.5,
+      "aggressiveness": 0.5,
+      "cooperation": 0.5,
+      "cepBuyThreshold": 1100,
+      "safeMoneyReserve": 250,
+      "decisionDelay": 1.5
+    }
+  ]
+}
